@@ -152,63 +152,23 @@ Variables
 /* Responsive Media */
 @media screen and (max-width: 425px){
 
-    .ads{
-        padding: 20px 0px;
-    }
     .carousel-item img{
        width: 100% !important;
     }
-    .col-12{
-        flex: initial !important;
-        width: fit-content !important;
+    .img-banner{
+        margin-bottom: 0 !important;
     }
-    .banner-img{
-        width: auto !important;
+    .img-banner-ads{
+        margin-top:  0 !important;
     }
     
 }
 
-@media screen and (max-width: 375px){
-    .ads{
-        padding: 10px 0px;
-        justify-content: center;
-    }
-    .col-12{
-      padding:  0px !important;
-    }
-}
 
 @media screen and (max-width: 768px){
 
     .topnav{
         display: none;
-    }
-    .carousel-item img{
-       width: 100% !important;
-    }
-    .img-heading{
-        z-index: 5;
-        top: 35%;
-        left: 10%;
-        display: inline-block;
-    }
-    .ads img{
-        height: 118px !important;
-        margin-bottom: 8px;
-    }
-    
-}
-
-@media screen and (max-width: 1024px){
-
-    .img-heading{
-        z-index: 5;
-        top: 35%;
-        left: 10%;
-        display: inline-block;
-    }
-    .ads img{
-        height: 163px;
     }
     
 }
