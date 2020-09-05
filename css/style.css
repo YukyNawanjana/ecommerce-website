@@ -99,7 +99,6 @@ Variables
     position: relative;
     display: -webkit-inline-box;
 }
-
 .currency-svg{
     width: 20px;
     margin: 0 10px 0 0;
@@ -126,6 +125,9 @@ Variables
     font-size: 1.2rem;
     font-weight: 800 !important;
 }
+.navbar-brand{
+    color: var(--clr-primary-5) !important;
+}
 .dropdown-menu{
     width: 100%;
 }
@@ -146,8 +148,17 @@ Variables
 }
 
 
-
-
+/* icon Section  */
+.icon-section{
+    background: var(--clr-primary-5);
+}
+.icon-svg{
+    width: 100;
+    margin-bottom: 20px
+}
+.icon-svg img{
+    width:70px;
+}
 
 /* Responsive Media */
 @media screen and (max-width: 425px){
