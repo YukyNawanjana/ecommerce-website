@@ -144,23 +144,6 @@ Variables
     font-family: 'Signika', sans-serif;
     font-size: 0.9rem;
 }
-.ads{
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;  
-}
-.ads img{
-    height: 200px;
-    border-radius: 10px;
-}
-.banner-img{
-    width: 350px;
-    border-radius: 0 !important;
-}
-
-.carousel-item img{
-    width: 100% !important; 
-}
 
 
 
