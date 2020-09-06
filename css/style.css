@@ -11,7 +11,7 @@ Variables
     --clr-primary-1: #7971ea;
     --clr-primary-2: #4f45e3;
     --clr-primary-3: #392F5A;
-    --clr-primary-4: #6457A6;
+    --clr-primary-4: #f50a0a;
     /* primary/main color */
     --clr-primary-5: #FF5252;
     /* lighter shades of primary color */
@@ -87,6 +87,31 @@ Variables
     color: var(--clr-white) !important;
     background: var(--clr-primary-5);
 }
+.text-underline{
+    height: 5px;
+    width: 300px;
+    border-radius: 50px;
+    position: relative;
+    margin: 30px auto;
+    background:var(--clr-primary-4);
+}
+.text-underline-center{
+    height: 8px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    background:var(--clr-primary-5);
+
+}
+.defult-text{
+    font-family: 'Signika', sans-serif;
+}
+.defult-color{
+    color: var(--clr-primary-5);
+}   
 
 
 /* End of Globel */
@@ -162,7 +187,7 @@ Variables
 
 
 /* icon Section  */
-.icon-section{
+.icon-section, .categories{
     background: var(--clr-primary-5);
 }
 .icon-svg{
@@ -176,6 +201,7 @@ Variables
 }
 
 /* Tending Products */
+
 .product-img-container{
     position: relative;
     transition: all 0.9s ease-in;
@@ -202,6 +228,18 @@ Variables
 }
 .product-img-container:hover .product-icon{
     opacity: 1;
+}
+/* category  */
+
+.categorie-info {
+    font-size: 2rem;
+}
+
+.categorie-info-img{
+    width: 155px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
   
 
