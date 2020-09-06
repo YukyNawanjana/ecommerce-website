@@ -49,15 +49,13 @@ Variables
     --fixed-width: 620px;
   }
 
-
+/* Golabel */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-/* Top Nav Bar */
-/* Buttons */
 .button{
     border: none;
     padding: 7px 20px;
@@ -67,6 +65,12 @@ Variables
     font-size: 1rem !important;
     font-weight: 800;
     border-radius: 0px !important;
+    transition: all 0.9s ease-in-out !important;
+}
+.button:hover{
+    border: .1rem solid var(--clr-primary-5) !important;
+    color: var(--clr-primary-5) !important;
+    background: transparent !important;
 }
 .button-outline{
     border: 2px solid var(--clr-primary-5)!important;
@@ -76,7 +80,16 @@ Variables
     font-size: 1rem !important;
     font-weight: 800;
     border-radius: 0px !important;
+    transition: all 0.7s linear !important;
 }
+.button-outline:hover{
+    border: .1rem solid var(--clr-primary-5) !important;
+    color: var(--clr-white) !important;
+    background: var(--clr-primary-5);
+}
+
+
+/* End of Globel */
 
 /* Top Nav Bar */
 .topnav{
@@ -154,11 +167,43 @@ Variables
 }
 .icon-svg{
     width: 100;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+   
 }
 .icon-svg img{
     width:70px;
+   
 }
+
+/* Tending Products */
+.product-img-container{
+    position: relative;
+    transition: all 0.9s ease-in;
+    border: none !important;
+}
+.product-img-container:hover{
+    background: rgba(0,0,0,.9);
+    border: none !important;
+}
+.product-img{
+    transition: all 0.8s linear;
+}
+.product-img-container:hover .product-img{
+    opacity: 0.7;
+}
+.product-icon{
+    position: absolute;
+    font-size: 1rem;
+    top: 7%;
+    right: 7%;
+    transform: translate(-7%, -7%);
+    opacity: 0;
+    transition: all 0.8s linear;
+}
+.product-img-container:hover .product-icon{
+    opacity: 1;
+}
+  
 
 /* Responsive Media */
 @media screen and (max-width: 425px){
