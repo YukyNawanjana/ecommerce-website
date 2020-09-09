@@ -166,6 +166,23 @@ Variables
 .navbar-brand{
     color: var(--clr-primary-5) !important;
 }
+.fa-bars{
+    color: var(--clr-primary-5);
+    transition: all 0.5 ease-in-out;
+}
+.navbar-toggler{
+    border: 1px solid var(--clr-primary-5) !important;
+    transition: all 0.5 ease-in-out;
+}
+.navbar-toggler:hover, fa-bars:hover{
+    transform: scale(1.2);
+}
+.nav-link{
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover{
+    color: var(--clr-primary-5) !important;
+}
 .dropdown-menu{
     width: 100%;
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
@@ -82,7 +83,9 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <a class="navbar-brand" href="#">Online Store</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span>
+                <i class="fas fa-bars"></i>
+              </span>
             </button>
           
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -182,7 +185,7 @@
         <div class="container">
           <div class="row">
             <!-- Single icon info -->
-            <div class="col-lg-3 col-6 mx-auto my-3">
+            <div class="col-lg-3 col-6 mx-auto my-3 animate-top">
               <div class="icon-info d-inline text-center">
                 <div class="icon-svg mx-auto">
                   <img src="./assets/svg/truck.svg" class="text-light"  alt="">
@@ -193,7 +196,7 @@
             </div>
             <!-- end of Single icon info -->
              <!-- Single icon info -->
-             <div class="col-lg-3 col-6 mx-auto my-3">
+             <div class="col-lg-3 col-6 mx-auto my-3 animate-top">
               <div class="icon-info d-inline text-center">
                 <div class="icon-svg mx-auto">
                   <img src="./assets/svg/refund.svg" class="text-light"  alt="">
@@ -204,7 +207,7 @@
             </div>
             <!-- end of Single icon info -->
              <!-- Single icon info -->
-             <div class="col-lg-3 col-6 mx-auto my-3">
+             <div class="col-lg-3 col-6 mx-auto my-3 animate-bottom">
               <div class="icon-info d-inline text-center">
                 <div class="icon-svg mx-auto">
                   <img src="./assets/svg/shield.svg" class="text-light"  alt="">
@@ -215,7 +218,7 @@
             </div>
             <!-- end of Single icon info -->
              <!-- Single icon info -->
-             <div class="col-lg-3 col-6 mx-auto my-3">
+             <div class="col-lg-3 col-6 mx-auto my-3 animate-bottom">
               <div class="icon-info d-inline text-center">
                 <div class="icon-svg mx-auto ">
                   <img src="./assets/svg/24support.svg" class="text-light"  alt="">
@@ -235,8 +238,8 @@
       <div class="container">
         <div class="row">
           <div class="col my-2 mx-auto text-center">
-            <h1 class="display-3 defult-text defult-color">Tranging Products</h1>
-            <div class="text-underline">
+            <h1 class="display-3 defult-text defult-color animate-right">Tranging Products</h1>
+            <div class="text-underline animate-left">
               <div class="text-underline-center"></div>
             </div>
             <p class="my-4 defult-text defult-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, sed?</p>
@@ -344,8 +347,8 @@
       <div class="container">
         <div class="row">
           <div class="col mx-auto my-3 text-center">
-            <h1 class="display-3 text-white defult-text">popular catrgories</h1>
-            <div class="text-underline bg-light">
+            <h1 class="display-3 text-white defult-text animate-right">popular catrgories</h1>
+            <div class="text-underline bg-light animate-left">
               <div class="text-underline-center bg-light"></div>
             </div>
           </div>
@@ -353,7 +356,7 @@
 
         <div class="row">
           <!-- Singel categorie -->
-          <div class="col-lg-3 col-md-6 col-8 mx-auto my-3">
+          <div class="col-lg-3 col-md-6 col-8 mx-auto my-3 animate-right">
               <div class="d-inline justify-content-center">
                 <img class="card-img-top categorie-info-img" src="./assets/images/product-50.png"  alt="Card image cap">
                 <p class="categorie-info text-light text-center defult-text my-3">Fashion</p>
@@ -362,7 +365,7 @@
           <!-- End of Singel categorie -->
 
            <!-- Singel categorie -->
-           <div class="col-lg-3 col-md-6 col-8 mx-auto my-3">
+           <div class="col-lg-3 col-md-6 col-8 mx-auto my-3 animate-left">
             <div class="d-inline justify-content-center">
               <img class="card-img-top categorie-info-img" src="./assets/images/product-52.png"  alt="Card image cap">
               <p class="categorie-info text-light text-center defult-text my-3">Computers</p>
@@ -371,7 +374,7 @@
         <!-- End of Singel categorie -->
 
          <!-- Singel categorie -->
-         <div class="col-lg-3 col-md-6 col-8 mx-auto my-3">
+         <div class="col-lg-3 col-md-6 col-8 mx-auto my-3 animate-right">
           <div class="d-inline justify-content-center">
             <img class="card-img-top categorie-info-img" src="./assets/images/product-53.png"  alt="Card image cap">
             <p class="categorie-info text-light text-center defult-text my-3">Beauty</p>
@@ -380,7 +383,7 @@
       <!-- End of Singel categorie -->
 
        <!-- Singel categorie -->
-       <div class="col-lg-3 col-md-6 col-8 mx-auto my-3">
+       <div class="col-lg-3 col-md-6 col-8 mx-auto my-3 animate-left">
         <div class="d-inline justify-content-center">
           <img class="card-img-top categorie-info-img" src="./assets/images/product-50.png"  alt="Card image cap">
           <p class="categorie-info text-light text-center defult-text my-3">Fashion</p>
@@ -424,10 +427,10 @@
         <div class="container-fluid  py-5">
           <div class="row my-5">
             <div class="col-md-3"></div>
-            <div class="col-md-6 mx-auto">
+            <div class="col-md-6 mx-auto animate-bottom">
               <h3 class="text-center display-4 defult-text defult-color">Lorem ipsum dolor sit amet.</h3>
               <p class="mx-5 text-center defult-text defult-color my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis at in inventore aperiam error molestias ea, eos ullam cum repudiandae!</p>
-              <button class="btn button px-5 mx-auto text-center mt-4 d-flex">Shop Now</button>
+              <button class="btn button px-5 mx-auto text-center mt-4 d-flex ">Shop Now</button>
             </div>
             <div class="col-md-3"></div>
          </div>
@@ -439,13 +442,13 @@
     <section id="email" class="email py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 py-3 my-3 mx-auto">
+          <div class="col-md-6 py-3 my-3 mx-auto animate-right">
             <h1 class="defult-color text-center defult-text my-2 text-capitalize">
               Subcribe to Our newsletter
             </h1>
             <p class="my-2 defult-text text-center defult-color text-capitalize">get email updates about our letest shops and special offers</p>
           </div>
-          <div class="col-md-6 py-3 my-auto mx-auto">
+          <div class="col-md-6 py-3 my-auto mx-auto animate-left">
             <div class="input-group">
               <input type="email" class="form-control" placeholder="your email">
               <div class="input-group-append">
@@ -477,10 +480,10 @@
           <div class="col-md-4 my-3 p-2 text-light text-center">
             <h4 class="text-uppercase mb-3">Flolow Us</h4>
             <ul class="footer-links social-links align-items-center">
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f animate-right"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter animate-right"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p animate-left"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram animate-left"></i></a></li>
             </ul>
 
           </div>
@@ -498,7 +501,7 @@
     <!-- End of  Footer  -->
     <div class="container-fluid">
       <div class="row p-3">
-        <div class="col-8 mx-auto">
+        <div class="col-8 mx-auto animate-bottom">
           <h6 class="text-center defult-text defult-color text-capitalize">
             Copyright &copy; 2020 all rights reserved | this website developed by yasiru
           </h6>
@@ -506,7 +509,7 @@
       </div>
     </div>
     
-
+    <script src="./app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
