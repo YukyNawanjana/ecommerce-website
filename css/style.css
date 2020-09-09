@@ -278,6 +278,25 @@ Variables
     background-attachment: fixed;
 }
 
+/* Footer */
+.footer{
+    background: var(--clr-primary-5);
+}
+.footer-links{
+    list-style: none;
+    text-align: center;
+}
+.footer-links >li >a, .footer-links>li{
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Signika', sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.footer-links > li >a:hover{
+    color: black;
+    transform: scale(1.2);
+    text-decoration: none;
+}
 
 /* Responsive Media */
 @media screen and (max-width: 425px){
@@ -309,5 +328,11 @@ Variables
     }
     .img-ads{
         margin-top: 0 !important;
+    }
+    .social-links{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        padding: 11px 97px;
     }
 }
