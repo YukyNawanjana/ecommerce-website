@@ -81,11 +81,13 @@ Variables
     font-weight: 800;
     border-radius: 0px !important;
     transition: all 0.7s linear !important;
+    outline: none !important;
 }
 .button-outline:hover{
     border: .1rem solid var(--clr-primary-5) !important;
     color: var(--clr-white) !important;
     background: var(--clr-primary-5);
+    outline: none !important;
 }
 .text-underline{
     height: 5px;
@@ -173,6 +175,7 @@ Variables
 .navbar-toggler{
     border: 1px solid var(--clr-primary-5) !important;
     transition: all 0.5 ease-in-out;
+    outline: none !important;
 }
 .navbar-toggler:hover, fa-bars:hover{
     transform: scale(1.2);
